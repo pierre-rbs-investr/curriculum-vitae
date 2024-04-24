@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import CodeDisplay from "./example-code";
 import Experiences from "./short-experiences";
 import LogoCloud from "./logo-cloud";
+import Testimonials from "./testimonials";
 
 export default function HeroSection() {
   return (
@@ -117,6 +118,7 @@ export default function HeroSection() {
       </div>
       <LogoCloud />
       <Experiences />
+      <Testimonials />
     </div>
   );
 }

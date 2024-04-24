@@ -77,6 +77,7 @@ export default function ShortExperiences() {
                       />
                       {item.company}
                     </div>
+                    <div>{item.position}</div>
                     <div>
                       {item.startDate} - {item.endDate}
                     </div>
